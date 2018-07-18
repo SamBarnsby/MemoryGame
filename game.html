@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Memory Game</title>
+        <link rel="stylesheet" type="text/css" href="game.css">
+    </head>
+    <body>
+        <h1>WELCOME TO THE MEMORY GAME</h1>
+        <form>
+            Columns: <input type="number" id="columns" required/>
+            <br/>
+            <br/>
+            Rows: <input type="number" id="rows" required/>
+            <br/>
+            <br/>
+            <input type="submit" value="Play" onClick="newGame(); return false;"/>
+        </form>
+        
+        <p id="main"></p>
+        <script src="game.js"></script>
+    </body>
+</html> 
